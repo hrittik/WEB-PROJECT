@@ -34,13 +34,11 @@ $_SESSION['a'][]=$_POST['pw'];
         				# code...
         			}
 
-
-        			else
-        			{	
-        				echo"no";
-
-
-        			}
+        			 else
+           				 {
+               				header("location:login.php?invalid=true");
+           				 }
+        			
        
                 }
             }

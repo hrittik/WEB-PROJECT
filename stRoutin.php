@@ -1,14 +1,3 @@
-<?php
-$error="";
-    if ( isset($_GET['ditch1']) && $_GET['ditch1'] == true )
-    {
-        $error=" Wrong or Not Matched Password ";
-    }
-    else if(isset($_GET['acc']) && $_GET['acc'] == true)
-    {
-        $error= "Successfully Changed";
-    }
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,7 +20,7 @@ $error="";
 				<ul>
 					<a href="studentHome.php"><li> HOME </li></a>
 					<a href="studentPass.php"><li> ChangePassword </li></a>
-					<a href="studentRoutin.php"><li> routin</li></a>
+					<a href=""><li> routin</li></a>
 					<a href=""><li> files</li></a>
 					<a href=""><li> Download </li></a>
 					<a href="logout.php"><li>Logout</li></a>

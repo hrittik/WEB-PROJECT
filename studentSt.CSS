@@ -112,9 +112,17 @@
 .tbl
 {
 
-margin-top: 5px;
-margin-left: 50px;
-
+	width: 630px;
+    height: 450px;
+    background: black;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    text-align: center;
 
 
 }

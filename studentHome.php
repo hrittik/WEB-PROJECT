@@ -19,7 +19,7 @@
 				<ul>
 					<a href="studentHome.php"><li> HOME </li></a>
 					<a href="studentPass.php"><li> ChangePassword </li></a>
-					<a href=""><li> routin</li></a>
+					<a href="studentRoutin.php"><li> routin</li></a>
 					<a href=""><li> files</li></a>
 					<a href=""><li> Download </li></a>
 					<a href="logout.php"><li>Logout</li></a>
@@ -29,8 +29,51 @@
 		</div>
 
 		<div class="tbl">
-			<table border="1px">
+			<table  >
+        <tr>
+          <td colspan="3">
+            <h4 style="color: red;text-align: center;
+                      font-size: 22px;  "> ----WELCOME---- </h4>
+                     
+         
+            
+          </td>
+        </tr>
 				<tr>
+          <td colspan="3">
+            <h4 style="color: red;text-align: center;
+                      font-size: 22px; text-transform: uppercase; "><?php 
+
+                      session_start(); //start the PHP_session function 
+
+                      $u=$_SESSION['a'][0];
+                      
+                      require 'config.php';
+                                          $statement="select * from studentinfo where id='$u' ";
+                            $result = mysqli_query($conn, $statement);
+                            if (mysqli_num_rows($result) > 0)
+                              { 
+                                  while($row = mysqli_fetch_assoc($result))
+                                    {
+                                         $_SESSION['id'] = $u;
+                                         echo $row['name'];
+                                        }
+                            }     
+                            else
+                              {
+                                  echo "INVALID";
+                              }
+                            mysqli_close($conn);
+                            
+
+
+                          ?>  </h4>
+                     
+          </td>
+          
+          
+        </tr>
+        <tr>
 					<td>
 						<div class="text">
 							<ul>
@@ -61,7 +104,7 @@
 									<h4> 	
 										<?php 
 
-											session_start(); //start the PHP_session function 
+										//	session_start(); //start the PHP_session function 
 
 											$u=$_SESSION['a'][0];
 											
