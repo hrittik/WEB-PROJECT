@@ -114,8 +114,8 @@
 
 	width: 630px;
     height: 450px;
-    background: grey;
-    color: grey;
+    background: black;
+    color: black;
     top: 50%;
     left: 50%;
     bottom: 50%;
@@ -128,12 +128,7 @@
 
 
 }
-.tbl table
-{ 
-	border: 1px;
 
-
-}
 .tbl ul li
 {
 

@@ -29,7 +29,7 @@
 		</div>
 
 		<div class="tbl">
-			<table>
+			<table border="0px" style="margin-left: 4%">
         <tr>
           <td colspan="3">
             <h4 style="color: red;text-align: center;
@@ -77,11 +77,11 @@
 					<td>
 						<div class="text">
 							<ul>
-								<li> <h4> ID </h4> </li>
-								<li> <h4> Name </h4> </li>
-								<li> <h4> PHONE </h4> </li>
-								<li> <h4> ADDRESS </h4> </li>
-								<li> <h4> EMAIL </h4> </li>
+								<li> <h4 > ID </h4> </li>
+								<li> <h4 > Name </h4> </li>
+								<li> <h4 > PHONE </h4> </li>
+								<li> <h4 > ADDRESS </h4> </li>
+								<li> <h4 > EMAIL </h4> </li>
 							</ul>
 						</div>
 					</td>

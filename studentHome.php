@@ -29,7 +29,7 @@
 		</div>
 
 		<div class="tbl">
-			<table  >
+			<table border="0px" style="margin-left: 35%">
         <tr>
           <td colspan="3">
             <h4 style="color: red;text-align: center;
@@ -39,6 +39,8 @@
             
           </td>
         </tr>
+      
+      
 				<tr>
           <td colspan="3">
             <h4 style="color: red;text-align: center;
@@ -73,6 +75,8 @@
           
           
         </tr>
+        </table>
+        <table border="0px">
         <tr>
 					<td>
 						<div class="text">
