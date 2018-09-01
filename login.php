@@ -18,8 +18,8 @@ $error="";
     <img src="avatar.png" class="avatar">
         <h1> Login Here </h1>
         <form action="loguser.php" method="post">
-            <p>Username</p>
-            <input type="text" name="un" placeholder="Enter Username">
+            <p>User Id</p>
+            <input type="text" name="un" placeholder="Enter User Id">
             <p>Password</p>
             <input type="password" name="pw" placeholder="Enter Password">
             <input type="submit" name="" value="Login">

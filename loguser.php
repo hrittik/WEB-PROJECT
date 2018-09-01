@@ -30,8 +30,7 @@ $_SESSION['a'][]=$_POST['pw'];
         			elseif ($row['type']==2) 
 
         			{
-        				echo"yes2";
-        				# code...
+        				header("location:teacherHome.php");
         			}
 
         			 else
